@@ -39,6 +39,7 @@ public class BankAccountTest extends TestCase {
     }
     
     public void testDebitNotEnoughBalance() {
+        //this change has to be merged
         System.out.println("debit not enough balance");
         double windrawAmmount = 3000.0;
         double expResult = 2655.0;
