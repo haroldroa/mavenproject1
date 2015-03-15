@@ -44,7 +44,7 @@ public class BankAccountTest extends TestCase {
         //this change has to be merged
         System.out.println("debit not enough balance");
         double windrawAmmount = 3000.0;
-        double expResult = 2654.0;
+        double expResult = 2655.0;
         double result = instance.debit(windrawAmmount);
         //this is a new change in dev
         assertEquals(expResult, result, 0.0);
