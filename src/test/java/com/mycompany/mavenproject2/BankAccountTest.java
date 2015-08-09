@@ -13,7 +13,7 @@ import junit.framework.TestCase;
 public class BankAccountTest extends TestCase {
     
      BankAccount instance;
-    double savingsAmount = 2660.0;
+    double savingsAmount = 2655.0;
     
     public BankAccountTest(String testName) {
         super(testName);
